@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:news_app/models/ArticleModel.dart';
 
 class NewsService {
-  static const API_KEY = "e71d99f9eaf4457bbcbc3d62b0ff4696";
+  static const API_KEY = "YOUR_API_KEY";
   final Dio dio;
   List<ArticleModel> allArticle = [];
 
